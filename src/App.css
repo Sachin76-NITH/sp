@@ -1,0 +1,336 @@
+/* .container-fluid{
+  background-color: pink;
+} */
+
+.navbar{
+ background-color: white;
+  height: 8vh;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  border-radius: 200px;
+  
+}
+
+.navbar-brand{
+  font-family: work-sans;
+  font-size: 2rem;
+}
+
+
+
+.container-fluid{
+  /* background-color: #e3f2fd; */
+ 
+  background-color: white;
+  color: white;
+  height:7vh;
+  border-radius: 35px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset!important;
+  /* border: 1px solid black; */
+
+ 
+}
+
+.btn{
+  border-radius: 40px;
+}
+.form-control{
+  border-radius: 40px;
+}
+
+
+.main{
+  display: flex;
+ flex: 1;
+}
+.left{
+  display: flex;
+  flex: 0.7;
+  margin: 130px;
+  flex-direction: column;
+}
+
+.left-para1{
+  display: flex;
+  font-size: larger;
+  font-family: works-sans;
+font-size: 2rem;
+  margin: 10px;
+  
+  
+}
+
+.mail{
+ text-decoration: none;
+}
+
+.left-para{
+ 
+  font: work-sans;
+  color: #65656d;
+  font-size: 16px;
+    line-height: 28px;
+  
+}
+
+.right{
+   flex: 0.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-image{
+  flex: 0.3;
+  height: 500px;
+  border-radius: 500px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+
+/* PROJECTS */
+
+
+.heading{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+align-items: center;
+font-family: works-sans;
+font-size: 3.7rem;
+}
+
+.cards{
+  margin-top: 20px;
+  flex: 0.7;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+
+.project{
+  display: flex;
+  margin: 30px;
+  margin-top: 20px;
+  
+}
+
+.pl{
+  margin: 30px;
+  display: flex;
+
+}
+
+
+
+.heading{
+  margin-right: 5px;
+  margin-top: 20px;
+  flex: 0.3;
+  background-image: url("https://img.freepik.com/free-psd/botanical-golden-frame_53876-91335.jpg");
+  background-position: center;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+
+
+
+.th{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  margin:  30px;
+  font-family: work sans;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  background-color: aliceblue;
+  border-radius: 200px;
+}
+
+.sl{
+
+  /* display: flex;
+  align-items: center;
+ justify-content: center; */
+ border-radius: 25px;
+margin-right: 30px;
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* .skillgrid{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  grid-auto-rows: auto;
+  height:auto;
+} */
+
+.skillgrid{
+  display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 30px;
+      grid-auto-rows: auto;
+      height: auto;
+    margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  /* background-image: url("https://i.pinimg.com/736x/89/6e/2c/896e2c9c05a0e4f86542e3c9264a8373.jpg");
+  background-position: center;
+  background-size: cover; */
+ 
+}
+
+.logos{ border-radius: 200px;
+  margin: 40px;
+  display: flex;
+  flex-direction: column;
+background-color: aliceblue;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+display: flex;
+
+}
+
+.all{
+margin:50px;
+  background-color: pink;
+  border-radius: 250px;
+  min-height: 100vh;
+}
+
+/* Define the keyframes for the animation */
+@keyframes swing {
+  20% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+  40% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+  80% {
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+  100% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+/* Apply the animation to the element */
+.th {
+  animation: swing 5s 1;
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Apply the animation to the element */
+.skillgrid {
+  animation: pulse 2s infinite;
+}
+
+
+
+.contact-page {
+
+ 
+  padding: 20px;
+  text-align: center;
+}
+
+.contact-item{
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+}
+
+.co{
+  height: 50px;
+  width: 50px;
+}
+.con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background-color: pink;
+  margin-bottom: 20px;
+  font-family: work sans;
+  font-size: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 55px;
+}
+
+h1 {
+  color: #333;
+  font-size: 4rem;
+
+}
+
+.contact-info {
+  font-size: 18px;
+  line-height: 1.6;
+  display: flex;
+  border-radius: 95px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.contact-info p {
+  margin: 10px 0;
+}
+
+
+
+@keyframes backInDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-600px) scale(0.7);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(25px) scale(0.9);
+  }
+  75% {
+    transform: translateY(-10px) scale(1.1);
+  }
+  90% {
+    transform: translateY(5px) scale(1);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Apply the animation to the element */
+.right-image {
+  animation: backInDown 2s ease;
+}
+
+.link{
+  text-decoration: none;
+  color: black;
+}
+
+
+.collapse{
+  display: flex;
+  justify-content: center;
+  margin-left: 200px;
+}
+
+.active{
+  margin-right: 150px;
+  font-family: cursive;
+}
