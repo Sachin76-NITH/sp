@@ -406,6 +406,20 @@ margin:50px;
     font-family: cursive;
   }
 }
+/* Updated styles for mobile view */
+@media only screen and (max-width: 600px) {
+  .th {
+    display: none; /* Hide original heading on mobile */
+  }
+
+  .th-mobile {
+    display: block; /* Show mobile heading */
+    margin-top: 30px;
+    font-size: 3rem;
+    font-family: cursive;
+    border-radius: 200px;
+  }
+}
 
 
 
