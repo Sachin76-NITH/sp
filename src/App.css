@@ -241,6 +241,157 @@ margin:50px;
 }
 
 
+/* Navbar */
+.navbar {
+  background-color: white;
+  height: 8vh;
+  margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  border-radius: 200px;
+}
+
+.navbar-brand {
+  font-family: work-sans;
+  font-size: 2rem;
+}
+
+/* Main */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+.left-para1 {
+  font-size: 2rem;
+  font-family: works-sans;
+}
+
+.left-para {
+  font: work-sans;
+  color: #65656d;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-image {
+  height: 300px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+/* Projects */
+.heading {
+  margin-top: 30px;
+  font-family: works-sans;
+  font-size: 3.7rem;
+}
+
+.cards {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project {
+  margin-top: 20px;
+}
+
+/* Technologies */
+.th {
+  margin-top: 30px;
+  font-size: 3rem;
+  font-family: work-sans;
+  border-radius: 200px;
+}
+
+.skillgrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
+  margin: 50px;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+  background-color: aliceblue;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+/* Contact */
+.contact-page {
+  padding: 20px;
+  text-align: center;
+}
+
+.header {
+  background-color: pink;
+  margin-bottom: 20px;
+  font-family: work sans;
+  font-size: 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  border-radius: 55px;
+}
+
+.contact-info {
+  font-size: 18px;
+  line-height: 1.6;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.contact-item {
+  margin: 20px;
+}
+
+.co {
+  height: 50px;
+  width: 50px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .left, .right {
+    margin: 10px;
+  }
+
+  .right-image {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+  .navbar-brand {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 901px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+}
+
+
 
 .contact-page {
 
