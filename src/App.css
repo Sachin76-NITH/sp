@@ -390,6 +390,22 @@ margin:50px;
     font-size: 2rem;
   }
 }
+/* Technologies */
+.th {
+  margin-top: 30px;
+  font-size: 3rem;
+  font-family: work sans;
+  border-radius: 200px;
+}
+
+/* Updated styles for mobile view */
+@media only screen and (max-width: 600px) {
+  .th {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-family: cursive;
+  }
+}
 
 
 
