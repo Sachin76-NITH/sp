@@ -3,7 +3,7 @@ import React from 'react'
 function Technologies() {
   return ( <div className='all'>
     <div className='th animate__swing'>I HAVE EXPERIENCE WITH FOLLOWING TECHNOLOGIES</div>
-    <div className='th-mobile'>TECHNOLOGIES</div>
+    
   <div className='logos'>
 
     
